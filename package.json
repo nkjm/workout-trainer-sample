@@ -1,0 +1,31 @@
+{
+  "name": "workout-trainer-sample",
+  "version": "1.0.0",
+  "description": "A sample chatbot of workout trainer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkjm/workout-trainer-sample.git"
+  },
+  "keywords": [
+    "workout",
+    "chatbot",
+    "bot",
+    "line"
+  ],
+  "author": "Kazuki Nakajima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkjm/workout-trainer-sample/issues"
+  },
+  "homepage": "https://github.com/nkjm/workout-trainer-sample#readme",
+  "dependencies": {
+    "bot-express": "^0.2.12",
+    "debug": "^3.1.0",
+    "memory-cache": "^0.2.0"
+  }
+}
