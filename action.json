@@ -1,0 +1,21 @@
+{
+    "actions": [
+        {
+            "description": "Default Welcome Intent",
+            "name": "MAIN",
+            "fulfillment": {
+                "conversationName": "workout"
+            },
+            "intent": {
+                "name": "actions.intent.MAIN"
+            }
+        }
+    ],
+    "conversations": {
+        "workout": {
+            "name": "workout",
+            "url": "https://YOUR_WEBHOOK_URL"
+        }
+    },
+    "locale": "ja"
+}
